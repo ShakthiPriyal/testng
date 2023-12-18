@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-17T06:45:36Z" name="Default suite" finished-at="2023-12-17T06:46:25Z" duration-ms="49046">
+    <groups>
+    </groups>
+    <test started-at="2023-12-17T06:45:36Z" name="Default test" finished-at="2023-12-17T06:46:25Z" duration-ms="49046">
+      <class name="com.testng.tests.SalesforceUserMenuTest">
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.testng.tests.SalesforceUserMenuTest@2421cc4]" started-at="2023-12-17T00:45:36Z" name="beforemethod" finished-at="2023-12-17T00:45:39Z" duration-ms="3699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="SelectMyProfileOptionFromUsermenu()[pri:2, instance:com.testng.tests.SalesforceUserMenuTest@2421cc4]" started-at="2023-12-17T00:45:39Z" name="SelectMyProfileOptionFromUsermenu" finished-at="2023-12-17T00:46:24Z" duration-ms="44874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectMyProfileOptionFromUsermenu -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testng.tests.SalesforceUserMenuTest@2421cc4]" started-at="2023-12-17T00:46:24Z" name="teardown" finished-at="2023-12-17T00:46:25Z" duration-ms="461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.testng.tests.SalesforceUserMenuTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

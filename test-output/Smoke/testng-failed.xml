@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Smoke]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.testng.listeners.TestListener"/>
+  </listeners>
+  <test name="Oppurtunities(failed)">
+    <classes>
+      <class name="com.testng.tests.SalesforceRandomSceneriosTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="beforemethod"/>
+          <include name="TabCustomization"/>
+        </methods>
+      </class> <!-- com.testng.tests.SalesforceRandomSceneriosTest -->
+    </classes>
+  </test> <!-- Oppurtunities(failed) -->
+</suite> <!-- Failed suite [Smoke] -->

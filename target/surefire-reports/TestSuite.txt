@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 28.308 sec <<< FAILURE! - in TestSuite
+loginByInvalidPassword(com.testng.tests.SalesforceLoginTest)  Time elapsed: 0.511 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<Please [check your username and password. If you still can't log in, contact your Salesforce administrator].> but was:<Please [enter your password].>
+	at com.testng.tests.SalesforceLoginTest.loginByInvalidPassword(SalesforceLoginTest.java:92)
+
